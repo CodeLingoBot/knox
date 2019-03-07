@@ -77,8 +77,7 @@ func TestDBCopy(t *testing.T) {
 
 }
 
-/*
-TODO(devinlundberg): figure out how to make these work as unit tests (or build out a way to do integration tests)
+/* TestTempErrs: TODO(devinlundberg): figure out how to make these work as unit tests (or build out a way to do integration tests)
 
 // TestMySQL runs all keydb tests on a mysqldb. It requires an empty db.
 func TestMySQL(t *testing.T) {
